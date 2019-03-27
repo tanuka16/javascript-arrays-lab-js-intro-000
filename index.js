@@ -24,7 +24,7 @@ function appendKitten(name){
 }
 function prependKitten(name){
   //kittens.push("Arnold");
-  var kittens = ["Milo", "Otis", "Garfield"]
+  //var kittens = ["Milo", "Otis", "Garfield"]
   kittens;              // ["Philadelphia", ...cities]
   var array1 = new Array("Milo", "Otis", "Garfield");
   array1 = ["Arnold", ...array1]
