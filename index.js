@@ -26,6 +26,6 @@ function prependKitten(name){
   //kittens.push("Arnold");
   //kittens;              // ["Philadelphia", ...cities]
   var array1 = new Array();
-  array1 = ["Arnold", ...array1]
+  //array1 = ["Arnold", ...array1]
   return kittens.concat(array1);
 }
