@@ -28,6 +28,6 @@ function prependKitten(name){
   kittens;              // ["Philadelphia", ...cities]
   var array1 = new Array();
   array1.unshift("Arnold")
-  return array1 = [...array1, name]
+  return array1 = [...kittens, name]
   //return kittens.concat(array1);
 }
