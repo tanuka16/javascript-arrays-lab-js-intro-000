@@ -17,7 +17,6 @@ function destructivelyRemoveFirstKitten(){
 }
 function appendKitten(name){
   //kittens.push("Broom");
-  var kittens = ["Milo", "Otis", "Garfield"]
   kittens;
   var new_array = new Array();
   new_array.push("Broom")
@@ -25,7 +24,8 @@ function appendKitten(name){
 }
 function prependKitten(name){
   //kittens.push("Arnold");
-  //kittens;              // ["Philadelphia", ...cities]
+  var kittens = ["Milo", "Otis", "Garfield"]
+  kittens;              // ["Philadelphia", ...cities]
   var array1 = new Array();
   //array1 = ["Arnold", ...array1]
   return kittens.concat(array1);
