@@ -27,7 +27,7 @@ function prependKitten(name){
   //var kittens = ["Milo", "Otis", "Garfield"]
   kittens;              // ["Philadelphia", ...cities]
   var array1 = new Array();
-  
+  array1.unshift("Arnold")
   //array1 = [...array1, "Arnold"]
   return kittens.concat(array1);
 }
